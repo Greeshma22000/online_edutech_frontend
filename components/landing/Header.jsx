@@ -1,5 +1,5 @@
 "use client"
-import { apiFetch, getAuthToken, setAuthToken } from '@/lib/supabaseClient';
+import { apiFetch, getAuthToken, setAuthToken } from '../../lib/api';
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 
