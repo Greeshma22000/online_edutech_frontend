@@ -35,7 +35,7 @@ export default function Sidebar({ active, onSelect, isOpen, onToggle }) {
           isOpen ? 'translate-x-0' : '-translate-x-full'
         }`}
         style={{ 
-          background: 'linear-gradient(180deg, #0f766e 0%, #0d9488 100%)'
+          background: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)'
         }}
       >
         <div className="px-5 py-4 border-b border-teal-600/30">
@@ -63,7 +63,7 @@ export default function Sidebar({ active, onSelect, isOpen, onToggle }) {
               }}
               className={`w-full text-left px-4 py-3.5 rounded-lg transition flex items-center gap-3 text-base ${
                 active === i.key
-                  ? 'bg-orange-500/30 text-white font-semibold'
+                  ? 'bg-orange-300/30 text-white font-semibold'
                   : 'text-teal-100 hover:bg-amber-600/20 text-white/90'
               }`}
             >
