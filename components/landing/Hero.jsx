@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className='relative overflow-hidden'>
+    <section className='relative overflow-hidden '>
         <div className='absolute inset-0 bg-gradient-to-br from-brand-50 via-white to-accent-50' />
             <div className='relative max-w-6xl mx-auto px-4 py-16'>
                 <div className='grid grid-cols-1 md:grid-cols-2 items-center gap-8'>
