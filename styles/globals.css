@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* App global styles */
+html, body { height: 100%; }
+body { @apply antialiased text-gray-800 bg-white; }
+
