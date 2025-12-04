@@ -108,7 +108,7 @@ export default function InstructorCourses() {
               setShowForm(true);
             }}
             className="px-6 py-3 rounded-xl text-white font-medium shadow-md hover:shadow-lg transition"
-            style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}
+            style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}
           >
             + Create Course
           </button>
@@ -180,7 +180,7 @@ export default function InstructorCourses() {
               <button
                 type="submit"
                 className="px-6 py-2 rounded-lg text-white font-medium"
-                style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}
+                style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}
               >
                 {editingCourse ? 'Update Course' : 'Create Course'}
               </button>
@@ -207,7 +207,7 @@ export default function InstructorCourses() {
           <button
             onClick={() => setShowForm(true)}
             className="px-6 py-3 rounded-lg text-white font-medium"
-            style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}
+            style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}
           >
             Create Your First Course
           </button>

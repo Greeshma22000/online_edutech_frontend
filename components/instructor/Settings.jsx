@@ -83,7 +83,7 @@ export default function InstructorSettings({ user, onSaveProfile, onChangePasswo
               type="submit"
               disabled={loading}
               className="w-full inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-medium text-white shadow-md hover:shadow-lg transition disabled:opacity-50"
-              style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}
+              style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}
             >
               {loading ? 'Saving...' : 'Save Changes'}
             </button>
@@ -123,7 +123,7 @@ export default function InstructorSettings({ user, onSaveProfile, onChangePasswo
               type="submit"
               disabled={loading}
               className="w-full inline-flex items-center justify-center rounded-xl px-5 py-3 text-sm font-medium text-white shadow-md hover:shadow-lg transition disabled:opacity-50"
-              style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}
+              style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}
             >
               {loading ? 'Updating...' : 'Update Password'}
             </button>
