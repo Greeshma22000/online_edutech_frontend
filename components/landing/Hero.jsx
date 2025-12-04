@@ -17,7 +17,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className='hidden md:block'>
-                        <div className='rounded-3xl border bg-white p-4 shadow-sm'>
+                        <div className='rounded-3xl border border-amber-600 bg-white p-4 shadow-sm'>
                             <div className='relative w-full rounded-2xl overflow-hidden bg-gray-50 flex items-center justify-center' style={{minHeight: '400px'}}>
                                 <Image 
                                     src="/main.png"
