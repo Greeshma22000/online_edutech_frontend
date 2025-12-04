@@ -36,12 +36,12 @@ export default function InstructorSidebar({ active, onSelect, isOpen, onToggle }
           background: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)'
         }}
       >
-        <div className="px-5 py-4 border-b border-teal-600/30">
+        <div className="px-5 py-4 border-b border-amber-600/30">
           <div className="flex items-center justify-between">
             <div className="text-xl font-bold text-white">Instructor Dashboard</div>
             <button 
               onClick={onToggle}
-              className="text-white hover:bg-teal-600/20 p-2 rounded-lg transition text-xl"
+              className="text-white hover:bg-amber-600/20 p-2 rounded-lg transition text-xl"
               aria-label="Toggle sidebar"
             >
               ☰
