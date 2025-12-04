@@ -57,7 +57,7 @@ export default function Courses({ courses = [], allCourses = [] }) {
                     <button 
                       onClick={() => router.push(`/courses/${c.id}`)}
                       className="inline-flex items-center rounded-lg px-4 py-2 text-sm font-medium text-white shadow-md hover:shadow-lg transition" 
-                      style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}
+                      style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}
                     >
                       Continue →
                     </button>
@@ -73,7 +73,7 @@ export default function Courses({ courses = [], allCourses = [] }) {
             <button 
               onClick={() => router.push('/courses')}
               className="px-6 py-3 rounded-lg text-white font-medium shadow-md hover:shadow-lg transition"
-              style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}
+              style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}
             >
               Browse Courses →
             </button>

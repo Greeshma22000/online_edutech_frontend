@@ -30,7 +30,7 @@ export default function SearchBar({ onSearch }) {
         <button
           type="submit"
           className="absolute right-2 top-1/2 -translate-y-1/2 px-4 py-1.5 rounded-lg text-sm font-medium text-white hover:opacity-90 transition"
-          style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}
+          style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}
         >
           Search
         </button>

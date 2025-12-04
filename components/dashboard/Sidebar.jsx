@@ -63,8 +63,8 @@ export default function Sidebar({ active, onSelect, isOpen, onToggle }) {
               }}
               className={`w-full text-left px-4 py-3.5 rounded-lg transition flex items-center gap-3 text-base ${
                 active === i.key
-                  ? 'bg-teal-500/30 text-white font-semibold'
-                  : 'text-teal-100 hover:bg-teal-600/20 text-white/90'
+                  ? 'bg-orange-500/30 text-white font-semibold'
+                  : 'text-teal-100 hover:bg-amber-600/20 text-white/90'
               }`}
             >
               <span className="text-xl">{i.icon}</span>

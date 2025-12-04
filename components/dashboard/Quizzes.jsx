@@ -51,7 +51,7 @@ export default function Quizzes({ quizzes = [] }) {
                 <button 
                   onClick={() => handleQuizClick(q)}
                   className="inline-flex items-center rounded-lg px-5 py-2.5 text-sm font-medium text-white shadow-md hover:shadow-lg transition" 
-                  style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}
+                  style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}
                 >
                   {q.score > 0 ? 'Retake →' : 'Take Quiz →'}
                 </button>

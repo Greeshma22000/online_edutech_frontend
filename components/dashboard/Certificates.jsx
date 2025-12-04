@@ -29,7 +29,7 @@ export default function Certificates({ items = [], user }) {
                 <button
                   onClick={() => setSelectedCertificate(c)}
                   className="w-full inline-flex items-center justify-center rounded-lg px-3 py-2 text-xs font-medium text-white shadow-md hover:shadow-lg transition"
-                  style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}
+                  style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}
                 >
                   View & Download ↓
                 </button>
