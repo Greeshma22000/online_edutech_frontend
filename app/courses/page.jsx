@@ -82,7 +82,7 @@ function CoursesContent() {
                   </span>
                   {c.is_premium && <span className="text-sm font-semibold text-gray-900">${c.price}</span>}
                 </div>
-                <a href={`/courses/${c.id}`} className="inline-flex items-center rounded-lg px-4 py-2 text-sm font-medium text-white w-full justify-center" style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}>View Course →</a>
+                <a href={`/courses/${c.id}`} className="inline-flex items-center rounded-lg px-4 py-2 text-sm font-medium text-white w-full justify-center" style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}>View Course →</a>
               </div>
             ))}
           </div>

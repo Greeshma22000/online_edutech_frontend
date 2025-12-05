@@ -103,7 +103,7 @@ export default function CourseDetailPage() {
               {quizzes.length > 0 && (
                 <a href={`/quiz/${params.id}`} className="mb-3 w-full inline-flex items-center justify-center px-4 py-2.5 rounded-lg text-sm font-medium text-white shadow-md hover:shadow-lg transition" style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}>Take Quiz →</a>
               )}
-              <button className="w-full px-4 py-3 rounded-lg text-sm font-medium text-white" style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}>Enroll Now</button>
+              <button className="w-full px-4 py-3 rounded-lg text-sm font-medium text-white" style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}>Enroll Now</button>
             </div>
           </div>
         </div>
