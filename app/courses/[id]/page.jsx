@@ -85,7 +85,7 @@ export default function CourseDetailPage() {
                       <div className="font-semibold text-gray-900 mb-1">Course Quiz</div>
                       <div className="text-sm text-gray-600">{quizzes.length} question{quizzes.length !== 1 ? 's' : ''} available</div>
                     </div>
-                    <a href={`/quiz/${params.id}`} className="px-5 py-2.5 rounded-lg text-sm font-medium text-white shadow-md hover:shadow-lg transition" style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}>Take Quiz →</a>
+                    <a href={`/quiz/${params.id}`} className="px-5 py-2.5 rounded-lg text-sm font-medium text-white shadow-md hover:shadow-lg transition" style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}>Take Quiz →</a>
                   </div>
                 </div>
               </div>
