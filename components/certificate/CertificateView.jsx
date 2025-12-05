@@ -109,7 +109,7 @@ export default function CertificateView({ certificate, user, onClose }) {
               onClick={handleDownload}
               disabled={isDownloading}
               className="px-4 py-2 rounded-lg text-white font-medium shadow-md hover:shadow-lg transition disabled:opacity-50 disabled:cursor-not-allowed"
-              style={{ backgroundImage: 'linear-gradient(135deg,#6366f1 0%, #06b6d4 100%)' }}
+              style={{ backgroundImage: 'linear-gradient(135deg, #f25c54 0%, #f7b267 100%)' }}
             >
               {isDownloading ? 'Generating PDF...' : 'Download PDF'}
             </button>
